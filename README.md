@@ -1,87 +1,262 @@
-# Hi there 👋
+<div align="center">
 
-I'm **Vedansh**, a senior CS student at UNT and an AI/ML researcher focused on **3D human pose estimation** (Transformer-GNN lifters on MPI-INF-3DHP). I also build full-stack apps and playful tools that make life easier (and a bit more fun).
+<img src="./vedansh-labs-logox-bg-removed.png" alt="Vedansh Labs Logo" width="220"/>
 
-- 🔭 **Currently**: Training and evaluating **pose lifters** (2D→3D) with hybrid **GCN + Transformer** models; benchmarking ST-GCN, ViTPose, MotionAGFormer, and MediaPipe pipelines.
-- 🧪 **Research**: *Navigating AI Cybersecurity – A Comparative Analysis* (ChatGPT, Gemini, Copilot) – exploring jailbreaks, robustness, and mitigations.
-- 🌱 **Learning**: Graph Neural Networks, transformer augmentation, quantization & distillation for efficient inference.
-- 🛠 **Building**:  
-  • **CompostGuard** – solar-powered smart compost monitor (ESP32 + sensors + dashboards)  
-  • **Helix** – an offline AI coding assistant (React + Node/Ollama, local LLMs, memory)  
-  • **Resume Skill Graph** – a Streamlit app that parses resumes and maps skill gaps
-- 🤝 **Open to collaborate** on open-source **CV / GNN / tooling** projects and helpful campus apps.
-- 🎯 **Actively seeking**: **Summer 2025 Software/ML internships**.
-- 💬 **Ask me about**: PyTorch, pose estimation, React/Node, data pipelines, Git LFS, model training/debugging.
-- 📫 **Reach me**: **vedansh10tembhre@gmail.com** • Portfolio: **https://vedanshtembhreportfolio.com** • [LinkedIn](https://www.linkedin.com/in/vedansh-tembhre/)
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I’m either shipping code or clutching in **Valorant**.
+# Vedansh Tembhre
+
+### AI Researcher-Builder  
+### Creator of Vedansh Labs
+
+**Building human-centered AI from research to reality.**
+
+I build open-source, research-grade AI systems for **accessibility**, **human understanding**, and **trustworthy intelligence**.
+
+</div>
 
 ---
 
-## 🛠 Skills & Tools
+## Vedansh Labs
 
-### Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+**Vedansh Labs** is my open-source AI research and engineering initiative focused on building practical, research-grade systems for accessibility, human understanding, and trustworthy intelligence.
 
-### AI/ML & Data
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![pandas](https://img.shields.io/badge/-pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white)
+The goal is to turn advanced AI ideas into tools that engineers, students, researchers, and real users can actually use.
 
-### Web & DevTools
-![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-333?style=flat-square&logo=linux&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+Vedansh Labs is built around one simple idea:
+
+> Advanced AI should not stay trapped inside papers, demos, or isolated experiments.  
+> It should become useful open-source systems that people can study, improve, and use.
 
 ---
 
-## 🔬 Current Focus
+## What I Build
 
-- Robust, real-time **3D pose lifting** with bone-length priors, symmetry constraints, and multi-hypothesis decoding  
-- Evaluation on **MPI-INF-3DHP** with consistent 28-joint ↔ 24-joint mappings  
-- Efficiency: mixed precision, gradient clipping, cosine LR, and model distillation
+I focus on AI systems that connect research with real-world impact.
 
----
+My work sits at the intersection of:
 
-## 📦 Selected Projects
-
-- **CompostGuard** — Solar-powered, sensor-rich compost monitor with live dashboards  
-- **Helix** — Local-first AI coding assistant (React + Node/Express + Ollama)  
-- **Resume Skill Graph** — Resume parser + interactive skill gap visualizer (Streamlit)  
-- **ASL Learning Platform** — Real-time sign detection (PyTorch) + study modules
-
-> Demos & details live on my portfolio → **https://vedanshtembhreportfolio.com**
-
----
-
-## 📈 GitHub Stats
-
-![Commits](https://github-readme-stats.vercel.app/api?username=Vedansh5545&count_private=true&show_icons=true&theme=radical)
-![Streak](https://streak-stats.demolab.com/?user=Vedansh5545&theme=radical)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vedansh5545&theme=radical&layout=compact)
+- Human-centered AI
+- Accessibility technology
+- Computer vision
+- Human pose estimation
+- Graph neural networks
+- Transformer-based learning
+- Trustworthy AI
+- AI safety and cybersecurity
+- Open-source research tools
 
 ---
 
-### 🤝 Let’s Connect
+## Core Philosophy
 
-- Email: **vedansh10tembhre@gmail.com**  
-- Portfolio: **https://vedanshtembhreportfolio.com**  
-- LinkedIn: **https://www.linkedin.com/in/vedansh-tembhre/**
+Every Vedansh Labs project follows four principles:
 
-*If you’re building something cool in CV, GNNs, or dev tooling, I’d love to chat or pair up. Happy coding! 🚀*
+| Principle | Meaning |
+|---|---|
+| **Human-Centered** | The project should help people, not just optimize numbers. |
+| **Research-Grade** | The system should be technically grounded, reproducible, and well-documented. |
+| **Open-Source** | The code, process, and learning should be public and useful to others. |
+| **Practical** | The project should move beyond a demo and solve a real problem. |
+
+---
+
+## Four Pillars
+
+<table>
+<tr>
+<td width="50%">
+
+### Accessible AI
+
+AI tools that help people navigate, learn, and interact.
+
+**Focus Areas**
+- Assistive computer vision
+- Blind and low-vision AI tools
+- Voice-first interfaces
+- Accessible education systems
+
+**Projects**
+- SmartSight
+- Canvox
+- BLV-focused AI tools
+
+</td>
+<td width="50%">
+
+### Human Understanding
+
+AI that understands human pose, motion, behavior, and context.
+
+**Focus Areas**
+- 2D/3D human pose estimation
+- Human motion understanding
+- Skeleton graph modeling
+- GNN + Transformer pose systems
+
+**Projects**
+- PoseLab
+- 2D/3D pose estimation tools
+- GNN + Transformer pose tools
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Trustworthy Intelligence
+
+AI systems that are safer, more reliable, and easier to evaluate.
+
+**Focus Areas**
+- Chatbot cybersecurity
+- Prompt injection evaluation
+- AI safety testing
+- Reliability dashboards
+
+**Projects**
+- LLM ShieldBench
+- Chatbot cybersecurity tools
+- AI safety evaluation dashboards
+
+</td>
+<td width="50%">
+
+### Open Research Tools
+
+Reusable tools for researchers, engineers, and students.
+
+**Focus Areas**
+- Paper-to-code implementations
+- PyTorch templates
+- Dataset processing pipelines
+- Reproducible experiment dashboards
+
+**Projects**
+- Paper2Code Kits
+- PyTorch templates
+- Dataset processing tools
+- Research experiment dashboards
+
+</td>
+</tr>
+</table>
+
+---
+
+## Flagship Projects
+
+### SmartSight
+
+Open-source AI vision for safer navigation.
+
+SmartSight focuses on context-aware obstacle detection for blind and low-vision users. The goal is to move beyond simple object detection by understanding where an obstacle is, whether it blocks the path, and how urgently the user should be warned.
+
+**Planned Modules**
+- Webcam or video input
+- Object detection
+- Left / center / right zone classification
+- Path relevance detection
+- Height-level classification
+- Object tracking
+- Motion classification
+- Risk scoring
+- Warning generation
+- Adaptive compute modes
+- Demo video and benchmark results
+
+---
+
+### Canvox
+
+Voice-first accessibility for digital learning.
+
+Canvox is an accessibility-focused assistant designed to make learning platforms easier to use through voice interaction, screen reading, navigation commands, and automation.
+
+**Goal**
+
+> Make digital education platforms easier to navigate for blind and low-vision students, teachers, and accessibility-focused users.
+
+---
+
+### PoseLab
+
+Research-ready human pose estimation tools.
+
+PoseLab focuses on 2D and 3D human pose estimation using graph neural networks, transformers, and hybrid pose-lifting systems.
+
+**Focus Areas**
+- 2D-to-3D pose lifting
+- Multi-hypothesis pose estimation
+- Skeleton graph reasoning
+- Motion-aware modeling
+- Research visualizations
+- Evaluation pipelines
+
+---
+
+### LLM ShieldBench
+
+Open benchmarks for safer conversational AI.
+
+LLM ShieldBench focuses on evaluating chatbot security, safety, and robustness against risks such as prompt injection, jailbreaks, phishing assistance, and unsafe response behavior.
+
+**Focus Areas**
+- Prompt injection tests
+- Jailbreak robustness checks
+- Chatbot cybersecurity evaluation
+- AI safety dashboards
+- Model comparison reports
+
+---
+
+## Technical Areas
+
+```txt
+AI/ML
+Computer Vision
+Human Pose Estimation
+Graph Neural Networks
+Transformers
+PyTorch
+Accessibility AI
+Trustworthy AI
+AI Cybersecurity
+Open-Source Research Tools
+```
+
+---
+
+## What I Am Building Toward
+
+I am building Vedansh Labs as a long-term open-source AI ecosystem.
+
+The goal is to create projects that:
+
+- Help real users
+- Support researchers and engineers
+- Make AI research easier to understand
+- Turn technical ideas into working systems
+- Build trustworthy and accessible AI tools
+- Create public value through open-source work
+
+---
+
+## Connect
+
+
+
+- [Portfolio](https://vedanshtembhreportfolio.com/) 
+- [GitHub](https://github.com/Vedansh5545) 
+- [LinkedIn](https://www.linkedin.com/in/vedansh-tembhre/)
+
+
+---
+
+<div align="center">
+
+### Vedansh Labs
+
+**Building human-centered AI from research to reality.**
+
+</div>

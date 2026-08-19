@@ -4,252 +4,155 @@
 
 # Vedansh Tembhre
 
-### AI Researcher-Builder  
-### Creator of Vedansh Labs
+### PhD Student in Computer Science and Engineering @ UNT
+### Computer Vision · 3D Human Motion · Embodied AI
 
 **Building human-centered AI from research to reality.**
 
-I build open-source, research-grade AI systems for **accessibility**, **human understanding**, and **trustworthy intelligence**.
+I work on AI systems that understand people, motion, and the world around them — with a focus on **3D human pose**, **assistive computer vision**, and **trustworthy AI evaluation**.
+
+**Creator of Vedansh Labs**, an open-source research and engineering initiative for turning AI ideas into practical, reproducible systems.
 
 </div>
 
 ---
 
+## Current Research
+
+### ReCTA-Audit — 3D Human Pose Reliability
+
+Research on reliable evaluation of **multi-hypothesis 3D human pose estimation**.
+
+I am studying the gap between the quality that exists inside a model's candidate set and the quality that a deployable selector can actually recover.
+
+**Technical focus**
+- Multi-hypothesis 3D pose estimation
+- D3DP and MotionAGFormer-K
+- MPI-INF-3DHP
+- Distribution shift and selector reliability
+- Leakage-controlled evaluation
+- Reproducible experiment pipelines
+
+---
+
+### SmartSight — Assistive Computer Vision
+
+**Research Assistant, University of North Texas · NASA-funded project**
+
+SmartSight is a context-aware assistive vision system for blind and low-vision users. The goal is to move beyond basic object detection by reasoning about **where an obstacle is, how it is moving, whether it blocks the user's path, and how urgently the user should be warned**.
+
+**Current pipeline**
+
+```text
+Video / Camera
+      ↓
+YOLO Object Detection
+      ↓
+Spatial + Path Context
+      ↓
+Object Tracking
+      ↓
+Motion Reasoning
+      ↓
+Risk Scoring
+      ↓
+Adaptive Warning Generation
+```
+
+**Technical focus**
+- YOLO object detection
+- Spatial and path reasoning
+- Temporal object tracking
+- Approaching / receding / lateral motion classification
+- Risk-aware warning generation
+- Adaptive compute and alert gating
+
+---
+
 ## Vedansh Labs
 
-**Vedansh Labs** is my open-source AI research and engineering initiative focused on building practical, research-grade systems for accessibility, human understanding, and trustworthy intelligence.
+**Vedansh Labs** is my open-source AI research and engineering initiative focused on building practical systems around three themes:
 
-The goal is to turn advanced AI ideas into tools that engineers, students, researchers, and real users can actually use.
-
-Vedansh Labs is built around one simple idea:
-
-> Advanced AI should not stay trapped inside papers, demos, or isolated experiments.  
-> It should become useful open-source systems that people can study, improve, and use.
-
----
-
-## What I Build
-
-I focus on AI systems that connect research with real-world impact.
-
-My work sits at the intersection of:
-
-- Human-centered AI
-- Accessibility technology
-- Computer vision
-- Human pose estimation
-- Graph neural networks
-- Transformer-based learning
-- Trustworthy AI
-- AI safety and cybersecurity
-- Open-source research tools
-
----
-
-## Core Philosophy
-
-Every Vedansh Labs project follows four principles:
-
-| Principle | Meaning |
+| Area | Focus |
 |---|---|
-| **Human-Centered** | The project should help people, not just optimize numbers. |
-| **Research-Grade** | The system should be technically grounded, reproducible, and well-documented. |
-| **Open-Source** | The code, process, and learning should be public and useful to others. |
-| **Practical** | The project should move beyond a demo and solve a real problem. |
+| **Human Understanding** | 3D human pose, motion, graph and transformer models |
+| **Accessible AI** | Assistive computer vision and human-centered interfaces |
+| **Trustworthy Intelligence** | Reliable evaluation, AI safety, and reproducible research tools |
+
+The guiding idea is simple:
+
+> AI research should not stop at a paper or isolated experiment. It should become something people can inspect, reproduce, improve, and use.
 
 ---
 
-## Four Pillars
+## Selected Projects
 
-<table>
-<tr>
-<td width="50%">
+### [LitVerify](https://github.com/Vedansh5545/LitVerify) — Vedansh Labs
 
-### Accessible AI
+**Faster, verifiable literature review.**
 
-AI tools that help people navigate, learn, and interact.
+A local-first workspace for organizing papers, evidence, contradictions, datasets, research gaps, and verifiable claims.
 
-**Focus Areas**
-- Assistive computer vision
-- Blind and low-vision AI tools
-- Voice-first interfaces
-- Accessible education systems
-
-**Projects**
-- SmartSight
-- Canvox
-- BLV-focused AI tools
-
-</td>
-<td width="50%">
-
-### Human Understanding
-
-AI that understands human pose, motion, behavior, and context.
-
-**Focus Areas**
-- 2D/3D human pose estimation
-- Human motion understanding
-- Skeleton graph modeling
-- GNN + Transformer pose systems
-
-**Projects**
-- PoseLab
-- 2D/3D pose estimation tools
-- GNN + Transformer pose tools
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### Trustworthy Intelligence
-
-AI systems that are safer, more reliable, and easier to evaluate.
-
-**Focus Areas**
-- Chatbot cybersecurity
-- Prompt injection evaluation
-- AI safety testing
-- Reliability dashboards
-
-**Projects**
-- LLM ShieldBench
-- Chatbot cybersecurity tools
-- AI safety evaluation dashboards
-
-</td>
-<td width="50%">
-
-### Open Research Tools
-
-Reusable tools for researchers, engineers, and students.
-
-**Focus Areas**
-- Paper-to-code implementations
-- PyTorch templates
-- Dataset processing pipelines
-- Reproducible experiment dashboards
-
-**Projects**
-- Paper2Code Kits
-- PyTorch templates
-- Dataset processing tools
-- Research experiment dashboards
-
-</td>
-</tr>
-</table>
+**Built with:** React · TypeScript · local-first storage · reproducible evidence workflows
 
 ---
 
-## Flagship Projects
+### [LLM ShieldBench](https://github.com/Vedansh5545/llm-shieldbench) — Vedansh Labs
 
-### SmartSight
+**Lightweight evaluation infrastructure for safer conversational AI.**
 
-Open-source AI vision for safer navigation.
+A benchmark platform for comparing LLM responses across prompts, models, and safety-oriented scoring criteria while keeping provider credentials non-persistent.
 
-SmartSight focuses on context-aware obstacle detection for blind and low-vision users. The goal is to move beyond simple object detection by understanding where an obstacle is, whether it blocks the path, and how urgently the user should be warned.
-
-**Planned Modules**
-- Webcam or video input
-- Object detection
-- Left / center / right zone classification
-- Path relevance detection
-- Height-level classification
-- Object tracking
-- Motion classification
-- Risk scoring
-- Warning generation
-- Adaptive compute modes
-- Demo video and benchmark results
+**Built with:** Python · React · LLM evaluation · safety benchmarking · reproducible result storage
 
 ---
 
-### Canvox
+## Research & Technical Focus
 
-Voice-first accessibility for digital learning.
-
-Canvox is an accessibility-focused assistant designed to make learning platforms easier to use through voice interaction, screen reading, navigation commands, and automation.
-
-**Goal**
-
-> Make digital education platforms easier to navigate for blind and low-vision students, teachers, and accessibility-focused users.
-
----
-
-### PoseLab
-
-Research-ready human pose estimation tools.
-
-PoseLab focuses on 2D and 3D human pose estimation using graph neural networks, transformers, and hybrid pose-lifting systems.
-
-**Focus Areas**
-- 2D-to-3D pose lifting
-- Multi-hypothesis pose estimation
-- Skeleton graph reasoning
-- Motion-aware modeling
-- Research visualizations
-- Evaluation pipelines
-
----
-
-### LLM ShieldBench
-
-Open benchmarks for safer conversational AI.
-
-LLM ShieldBench focuses on evaluating chatbot security, safety, and robustness against risks such as prompt injection, jailbreaks, phishing assistance, and unsafe response behavior.
-
-**Focus Areas**
-- Prompt injection tests
-- Jailbreak robustness checks
-- Chatbot cybersecurity evaluation
-- AI safety dashboards
-- Model comparison reports
-
----
-
-## Technical Areas
-
-```txt
-AI/ML
+```text
 Computer Vision
-Human Pose Estimation
+3D Human Pose Estimation
+Human Motion Understanding
 Graph Neural Networks
 Transformers
 PyTorch
-Accessibility AI
-Trustworthy AI
-AI Cybersecurity
-Open-Source Research Tools
+Assistive / Accessibility AI
+Embodied and Spatial AI
+Trustworthy AI Evaluation
+Reproducible ML Research
 ```
+
+---
+
+## Engineering Stack
+
+**Languages:** Python · C/C++ · JavaScript/TypeScript · SQL · Bash  
+**ML / CV:** PyTorch · Transformers · GNNs · YOLO · OpenCV · NumPy · scikit-learn  
+**Research / Dev:** Git/GitHub · Linux · CUDA · Docker · Jupyter · React · Node.js
 
 ---
 
 ## What I Am Building Toward
 
-I am building Vedansh Labs as a long-term open-source AI ecosystem.
+I want to build AI systems that are not only capable, but also **useful, reliable, reproducible, and centered around real human needs**.
 
-The goal is to create projects that:
+My long-term interests include:
 
-- Help real users
-- Support researchers and engineers
-- Make AI research easier to understand
-- Turn technical ideas into working systems
-- Build trustworthy and accessible AI tools
-- Create public value through open-source work
+- Human-centered spatial intelligence
+- 3D human motion understanding
+- Egocentric and embodied perception
+- Assistive AI for blind and low-vision users
+- Reliable evaluation of modern AI systems
+- Open research infrastructure
 
 ---
 
 ## Connect
 
-
-
-- [Portfolio](https://vedanshtembhreportfolio.com/) 
-- [GitHub](https://github.com/Vedansh5545) 
+- [Portfolio](https://vedanshtembhreportfolio.com/)
+- [GitHub](https://github.com/Vedansh5545)
 - [LinkedIn](https://www.linkedin.com/in/vedansh-tembhre/)
-
+- [Vedansh Labs](https://www.youtube.com/@VedanshLabs)
 
 ---
 
